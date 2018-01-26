@@ -97,6 +97,8 @@ img::-moz-selection {
   background: transparent;
 }
 
+/* Custom CSS added after */
+
 .no-bullet {
   padding-left: 0;
   list-style: none;
@@ -109,4 +111,8 @@ img::-moz-selection {
   background-attachment: scroll;
   background-position: center center;
   text-align: center;
+}
+
+.sponsor-rows {
+  padding: 0px 0px 80px 0px;
 }
