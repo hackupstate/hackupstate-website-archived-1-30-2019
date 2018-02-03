@@ -252,6 +252,10 @@ header.masthead .intro-text .intro-heading {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/ix/hu-ix-cover.jpg");
 }
 
+.hu-viii-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/viii/hu-header-viii.JPG");
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
