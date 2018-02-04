@@ -78,6 +78,18 @@ section {
   }
 }
 
+@media(max-width:425px) {
+  .btn-xl {
+    font-size: 14px;
+  }
+}
+
+@media(max-width:320px) {
+  .btn-xl {
+    font-size: 10px;
+  }
+}
+
 // Highlight color customization
 ::-moz-selection {
   background: $primary;
