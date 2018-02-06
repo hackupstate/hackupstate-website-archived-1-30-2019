@@ -114,15 +114,6 @@ img::-moz-selection {
   list-style: none;
 }
 
-.stock-image-laptop {
-  /*background-image: url('../img/stock-laptop.jpg');*/
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  text-align: center;
-}
-
 .custom-form {
   width: 50%;
   display: inline-block;
@@ -194,9 +185,8 @@ img::-moz-selection {
   }
 }
 
-header.masthead, section.masthead {
+header.masthead, section.masthead, section.stock-image-laptop {
   text-align: center;
-  color: white;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -206,12 +196,12 @@ header.masthead, section.masthead {
   background-size: cover;
 }
 
-header.masthead .intro-text, section.masthead .intro-text {
+header.masthead .intro-text, section.masthead .intro-text, section.stock-image-laptop .intro-text {
   padding-top: 150px;
   padding-bottom: 100px;
 }
 
-header.masthead .intro-text .intro-lead-in, section.masthead .intro-text .intro-lead-in {
+header.masthead .intro-text .intro-lead-in, section.masthead .intro-text .intro-lead-in, section.stock-image-laptop .intro-text .intro-lead-in {
   font-size: 22px;
   font-style: italic;
   line-height: 22px;
@@ -219,7 +209,7 @@ header.masthead .intro-text .intro-lead-in, section.masthead .intro-text .intro-
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-heading {
+header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-heading, section.stock-image-laptop .intro-text .intro-heading {
   font-size: 50px;
   font-weight: 700;
   line-height: 50px;
@@ -228,18 +218,18 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
 }
 
 @media (min-width: 768px) {
-  header.masthead .intro-text, section.masthead .intro-text {
+  header.masthead .intro-text, section.masthead .intro-text, section.stock-image-laptop .intro-text {
     padding-top: 210px;
     padding-bottom: 200px;
   }
-  header.masthead .intro-text .intro-lead-in, section.masthead .intro-text .intro-lead-in {
+  header.masthead .intro-text .intro-lead-in, section.masthead .intro-text .intro-lead-in, section.stock-image-laptop .intro-text .intro-lead-in {
     font-size: 40px;
     font-style: italic;
     line-height: 40px;
     margin-bottom: 25px;
     font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
-  header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-heading {
+  header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-heading, section.stock-image-laptop .intro-text .intro-heading {
     font-size: 75px;
     font-weight: 700;
     line-height: 75px;
@@ -250,30 +240,42 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
 
 .main-hu-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/hu-sign-header-min.png");
+  color: white;
 }
 
 .cny-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/cny.jpg");
+  color: white;
 }
 
 .hu-xi-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/xi/hu-ix-banner.jpg");
+  color: white;
 }
 
 .hu-x-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/x/hu-x-banner.JPG");
+  color: white;
 }
 
 .hu-ix-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/ix/hu-ix-cover.jpg");
+  color: white;
 }
 
 .hu-viii-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/viii/hu-header-viii.JPG");
+  color: white;
 }
 
 .hu-vii-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/vii/hu-vii-banner.png");
+  color: white;
+}
+
+.stock-image-laptop {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/header-bg.jpg");
+  color: #000;
 }
 
 .service-heading {

@@ -116,15 +116,7 @@ img::-moz-selection {
   list-style: none;
 }
 
-.stock-image-laptop {
-  /*background-image: url('../img/stock-laptop.jpg');*/
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center center;
-  text-align: center;
-}
-
+// Sponsor form
 .custom-form {
   width: 50%;
   display: inline-block;

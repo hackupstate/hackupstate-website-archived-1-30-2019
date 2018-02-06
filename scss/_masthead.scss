@@ -1,7 +1,6 @@
 // Styling for the masthead
-header.masthead, section.masthead {
+header.masthead, section.masthead, section.stock-image-laptop {
   text-align: center;
-  color: white;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -26,7 +25,7 @@ header.masthead, section.masthead {
   }
 }
 @media(min-width:768px) {
-  header.masthead, section.masthead {
+  header.masthead, section.masthead, section.stock-image-laptop {
     .intro-text {
       padding-top: 210px;
       padding-bottom: 200px;
@@ -52,33 +51,46 @@ header.masthead, section.masthead {
 .main-hu-banner {
     // background-image: url('../img/backgrounds/hu-sign-header.png'); - if you don't want a gray gradient
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/hu-sign-header-min.png');
+  color: white;
 }
 
 .cny-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/backgrounds/cny.jpg');
+  color: white;
 }
 
 // HU 11
 .hu-xi-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/xi/hu-ix-banner.jpg');
+  color: white;
 }
 
 // HU 10
 .hu-x-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/x/hu-x-banner.JPG');
+  color: white;
 }
 
 // HU 9
 .hu-ix-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/ix/hu-ix-cover.jpg');
+  color: white;
 }
 
 // HU 8
 .hu-viii-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/viii/hu-header-viii.JPG');
+  color: white;
 }
 
 // HU 7
 .hu-vii-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/events/vii/hu-vii-banner.png');
+  color: white;
+}
+
+// Prize background
+.stock-image-laptop {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/header-bg.jpg');
+  color: $black;
 }
