@@ -14,13 +14,13 @@ Repo is found [here](https://s3.console.aws.amazon.com/s3/buckets/hackupstate.co
 
 ## Cloning repo on your machine
 
-`aws s3 sync s3://hackupstate.com .`
+`aws s3 sync s3://hackupstate.com . --exclude 'archive-2-5-2018/*'`
 
 ## Pushing changes up
 
 You can enter individual file names or to snyc everything:
 
-`aws s3 sync . s3://hackupstate.com --exclude 'node_modules/*'` 
+`aws s3 sync . s3://hackupstate.com --exclude 'node_modules/*' --exclude '.git/*'` 
 
 `aws s3 sync . s3://hackupstate.com --acl bucket-owner-full-control --acl public-read`
 
