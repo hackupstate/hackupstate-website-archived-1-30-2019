@@ -3,6 +3,8 @@
 @import "mixins.scss";
 // Global CSS
 @import "global.scss";
+// Bootstrap overrides
+@import "overrides.scss";
 // Components
 @import "navbar.scss";
 @import "masthead.scss";

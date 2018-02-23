@@ -71,3 +71,25 @@
     }
   }
 }
+
+// Sponsor banner at the top of the pages.
+// Requires a global bootstrap override in _overrides.scss to position navbar correctly
+// Only applies to /xi.index.html. 
+#sponsor-banner {
+  top: 0;
+  position: fixed;
+  z-index: 1000000;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #F39B31;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+@media(max-width: 425px) {
+  #sponsor-banner {
+    padding: 5px;
+  }
+}

@@ -119,6 +119,16 @@ img::-moz-selection {
   display: inline-block;
 }
 
+.custom-banner-page .fixed-top {
+  top: 40px !important;
+}
+
+@media (max-width: 425px) {
+  .custom-banner-page .fixed-top {
+    top: 30px !important;
+  }
+}
+
 #mainNav {
   background-color: #212529;
 }
@@ -182,6 +192,25 @@ img::-moz-selection {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+  }
+}
+
+#sponsor-banner {
+  top: 0;
+  position: fixed;
+  z-index: 1000000;
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  color: #fff;
+  background-color: #F39B31;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+@media (max-width: 425px) {
+  #sponsor-banner {
+    padding: 5px;
   }
 }
 

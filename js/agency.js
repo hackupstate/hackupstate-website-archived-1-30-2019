@@ -26,6 +26,12 @@
     offset: 56
   });
 
+  // $('#mainNav').affix({
+  //     offset: {
+  //         top: $('#sponsor-banner').height()
+  //     }   
+  // });
+
   // Collapse Navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
