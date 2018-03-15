@@ -119,6 +119,11 @@ img::-moz-selection {
   display: inline-block;
 }
 
+.prize-money {
+  font-size: 2em;
+  color: #85bb65;
+}
+
 .custom-banner-page .fixed-top {
   top: 40px !important;
 }
