@@ -134,6 +134,10 @@ img::-moz-selection {
   }
 }
 
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: #29d;
+}
+
 #mainNav {
   background-color: #212529;
 }

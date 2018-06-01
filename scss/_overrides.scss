@@ -9,3 +9,7 @@
         top: 30px !important;
     }
 }
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: $primary;
+}
