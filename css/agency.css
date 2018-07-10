@@ -321,6 +321,10 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
   color: #000;
 }
 
+.max-logo-height {
+  height: 500px;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
