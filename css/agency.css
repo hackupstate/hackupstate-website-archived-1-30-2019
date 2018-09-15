@@ -124,6 +124,12 @@ img::-moz-selection {
   color: #85bb65;
 }
 
+.sponsor-photo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .custom-banner-page .fixed-top {
   top: 40px !important;
 }

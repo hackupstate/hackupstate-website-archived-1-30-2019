@@ -126,3 +126,9 @@ img::-moz-selection {
   font-size: 1.4em;
   color: #85bb65;
 }
+
+.sponsor-photo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
