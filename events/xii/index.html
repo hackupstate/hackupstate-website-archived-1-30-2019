@@ -383,13 +383,38 @@
               <!-- <li class="list-group-item">PRIZE 1</li>
                         <li class="list-group-item">PRIZE 1</li> -->
             </ul>
-            <a class="btn btn-primary text-uppercase mt-4" href="../../open-data.html" target="_blank">Learn More</a>
+            <button type="button" class="btn btn-primary text-uppercase mt-4" data-toggle="modal" data-target="#exampleModalCenter">Learn More</button>
           </div>
       
           <!-- TODO - Uncomment when there are winners -->
           <!-- <div class="portfolio-no-link">
                         <img class="img-fluid" src="#" alt="">
                       </div> -->
+        </div>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" style="z-index:1000000">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">Best Use of Esri Technology</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <p>Esri will be offering a $100 prize for the best use of Esri technology. They will also be offering $1000 in developer credits for participants during the event. You can learn more at these links:</p>
+                <ul>
+                  <li><a href="https://www.esri.com/en-us/arcgis/open-vision/overview" target="_blank">Esri Open Vision</a></li>
+                  <li> <a href="https://developers.arcgis.com/sign-up" target="_blank">Esri Developer Portal</a></li>
+                </ul>
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
         </div>
       
         <div class="col-md-4 col-sm-6 portfolio-item">
@@ -686,6 +711,8 @@
       </div>
     </div>
   </section>
+
+
 
   <!-- Clients -->
   <!-- <section class="py-5">
