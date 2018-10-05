@@ -120,7 +120,7 @@ img::-moz-selection {
 }
 
 .prize-money {
-  font-size: 1.4em;
+  font-size: 2.4em;
   color: #85bb65;
 }
 
@@ -408,11 +408,13 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
 }
 
 #portfolio .portfolio-item .portfolio-caption {
-  max-width: 400px;
+  max-width: 450px;
   margin: 0 auto;
   padding: 25px;
   text-align: center;
   background-color: #fff;
+  min-height: 250px;
+  padding-bottom: 20px;
 }
 
 #portfolio .portfolio-item .portfolio-caption h4 {

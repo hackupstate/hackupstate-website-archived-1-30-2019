@@ -48,11 +48,13 @@
       }
     }
     .portfolio-caption {
-      max-width: 400px;
+      max-width: 450px;
       margin: 0 auto;
       padding: 25px;
       text-align: center;
       background-color: $white;
+      min-height: 250px;
+      padding-bottom: 20px;
       h4 {
         margin: 0;
         text-transform: none;
