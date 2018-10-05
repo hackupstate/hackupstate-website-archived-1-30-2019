@@ -130,6 +130,12 @@ img::-moz-selection {
   flex-wrap: wrap;
 }
 
+.schedule-subtitle {
+  font-size: 14px;
+  padding-right: 80px;
+  line-height: 1.1;
+}
+
 .custom-banner-page .fixed-top {
   top: 40px !important;
 }
