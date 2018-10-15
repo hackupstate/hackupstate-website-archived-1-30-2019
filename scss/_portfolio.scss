@@ -9,6 +9,10 @@
       max-width: 400px;
       margin: 0 auto;
       cursor: default;
+      .prize-image {
+        height: 400px;
+        width: auto;
+      }
     }
     .portfolio-link {
       position: relative;

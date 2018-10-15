@@ -370,6 +370,11 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
   cursor: default;
 }
 
+#portfolio .portfolio-item .portfolio-no-link .prize-image {
+  height: 400px;
+  width: auto;
+}
+
 #portfolio .portfolio-item .portfolio-link {
   position: relative;
   display: block;
