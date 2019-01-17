@@ -235,6 +235,10 @@ img::-moz-selection {
   overflow-wrap: break-word;
 }
 
+.hu-top-banner {
+  background-color: #29d;
+}
+
 .ray-flan-banner {
   background-color: #4F245E;
 }
@@ -310,6 +314,11 @@ header.masthead .intro-text .intro-heading, section.masthead .intro-text .intro-
 
 .cny-banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/backgrounds/cny.jpg");
+  color: white;
+}
+
+.hu-xiii-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/events/xiii/xiii-banner.jpg");
   color: white;
 }
 
